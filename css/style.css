@@ -22,3 +22,83 @@ a {
   text-decoration: none;
   list-style: none;
 }
+
+
+.main__content {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  grid-auto-rows: minmax(850px, max-content);
+}
+
+.main__block-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.line {
+  width: 120px;
+  height: 1px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.main__sisson-title {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 25px;
+  
+}
+.main__sisson-prece {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+  color: white;
+  display: block;
+}
+
+.main__new{
+  background: url(../img/new.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main__new-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.main__sisson{
+  padding: 30px;
+  background: black;
+}
+
+.main__sisson-content{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.main__sisson-img{
+  background: #191B1C;
+  padding: 55px 22px;
+}
+
+.main__block-title {
+  margin: auto;
+}
+
+
